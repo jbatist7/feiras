@@ -1,15 +1,9 @@
 {
-  "name": "Gestão Feira - Gerente",
+  "name": "Feira Agroecológica - Gerente",
   "short_name": "Gerente",
   "start_url": "./gerente.html",
   "display": "standalone",
   "background_color": "#e3f2fd",
   "theme_color": "#1565c0",
-  "icons": [
-    {
-      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
-  ]
+  "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png", "sizes": "192x192", "type": "image/png" }]
 }
