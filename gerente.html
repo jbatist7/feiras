@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1565c0">
+    <title>Painel do Gerente</title>
+    <!-- Link para o manifesto exclusivo deste "APP" -->
+    <link rel="manifest" href="manifest-gerente.json">
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; background-color: #e3f2fd; }
+        .btn-planilha { display: inline-block; margin-top: 20px; padding: 15px 30px; 
+                        background-color: #0d47a1; color: white; text-decoration: none; 
+                        border-radius: 8px; font-size: 18px; font-weight: bold; }
+        .aviso { color: #d32f2f; font-size: 14px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>📊 Painel do Gerente</h1>
+    <p>Acesse a planilha mestre de gestão abaixo:</p>
+    
+    <!-- LINK DA PLANILHA SOLICITADO -->
+    <a href="https://docs.google.com/spreadsheets/d/1kZdp1adv4XfUKXzXGVtpsPHJIK-AM1lF37381nU0xG8/edit?gid=0#gid=0" 
+       target="_blank" class="btn-planilha">
+       📂 Abrir Planilha de Gestão
+    </a>
+
+    <p class="aviso">⚠️ Este acesso é restrito à gerência.</p>
+    <br>
+    <a href="index.html" style="color: #1565c0;">← Voltar ao Menu</a>
+
+    <script>
+        // Registro básico do Service Worker para habilitar instalação PWA
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
