@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#e65100">
+    <title>Acesso Fornecedor</title>
+    <link rel="manifest" href="manifest-fornecedor.json">
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; background-color: #fff3e0; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+        .btn { display: block; width: 85%; max-width: 320px; margin: 20px 0; padding: 18px; background-color: #e65100; color: white; text-decoration: none; border-radius: 10px; font-size: 18px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🚚 Área do Fornecedor</h1>
+    <p>Redirecionando para o formulário...</p>
+    <a href="https://script.google.com/macros/s/AKfycbxg75SDbsq-7nRjIVbiYEY4d3rfG-_BXh3tz8TIZXAc9CrDUNP2CuJ_d08GAsw-8SQ9/exec?page=fornecedor" class="btn">
+        Abrir Formulário do Fornecedor
+    </a>
+    <br><a href="index.html" style="color: #e65100;">← Voltar</a>
+    <script>
+        setTimeout(() => { window.location.href = "https://script.google.com/macros/s/AKfycbxg75SDbsq-7nRjIVbiYEY4d3rfG-_BXh3tz8TIZXAc9CrDUNP2CuJ_d08GAsw-8SQ9/exec?page=fornecedor"; }, 1500);
+        if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+    </script>
+</body>
+</html>
